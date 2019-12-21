@@ -37,6 +37,7 @@ plugins:
 header_pages:
   - equipment.markdown
   - classes.markdown
+  - events.markdown
   - membership.markdown
   - about.markdown
 
