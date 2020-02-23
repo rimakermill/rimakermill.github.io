@@ -3,15 +3,10 @@
   <div class="inner">
     <nav>
       <ul>
-        <li><a href="{{ "#welcome" | relative_url }}">Welcome</a></li>
+        <li><a href="#welcome">Welcome</a></li>
         {% assign sections = site.pages | where: "front", "true" %}
         {% for section in sections %}
-          {% assign url = "#section-" | append: forloop.index %}
-        <li><a href="{{ url | relative_url }}">{{ section.title }}</a></li>
-        {% endfor %}
-        {% assign pages = site.pages | where: "menu", "true" %}
-        {% for page in pages %}
-        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+        <li><a href="#section-{{ forloop.index }}">{{ section.title }}</a></li>
         {% endfor %}
       </ul>
     </nav>
