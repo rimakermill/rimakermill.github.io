@@ -1,12 +1,11 @@
 <!-- Sidebar -->
-<section id="sidebar">
-  <div class="inner">
     <nav>
       <ul>
-        <li><a href="#welcome" class="scroll">Welcome</a></li>
+        <li><a href="{{ include.url | append: "#welcome" }}" class="scroll">Welcome</a></li>
         {% assign sections = site.pages | where: "front", "true" %}
         {% for section in sections %}
-        <li><a href="#section-{{ forloop.index }}" class="scroll">{{ section.title }}</a></li>
+        {% assign anchor = "#section-" | append: forloop.index %}
+        <li><a href="{{ include.url | append: anchor }}" class="scroll">{{ section.title }}</a></li>
         {% endfor %}
         {% assign pages = site.pages | where: "menu", "true" %}
         {% for page in pages %}
@@ -14,5 +13,3 @@
         {% endfor %}
       </ul>
     </nav>
-  </div>
-</section>
