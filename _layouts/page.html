@@ -3,14 +3,19 @@ layout: default
 title: Hyperspace by HTML5 UP
 ---
 
-{% include header.html %}
 <header id="header">
-	<a href="index.html" class="title">{{ site.title }}</a>
+  <a href="{{"index.html" | relative_url }}" class="title">{{ site.title }}</a>
 {% include sidebar.html url="/index.html" %}
 </header>
 
 <!-- Wrapper -->
 <div id="wrapper">
+  <section id="main" class="wrapper">
+    <div class="inner">
+      <h1 class="major">{{ page.title }}</h1>
 {{ content }}
+    </div>
+  </section>
+
 {% include footer.html %}
 </div>
