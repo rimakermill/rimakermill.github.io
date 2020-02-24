@@ -3389,8 +3389,15 @@
 			border: 0;
 			color: #ffffff;
 			display: block;
-			font-size: 1.25em;
+			font-size: 1.5rem;
 			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		#header > .title > img{
+			height: 1.5rem;
+			vertical-align: text-bottom;
+			margin-bottom: 0.25rem;
 		}
 
 		#header > nav {

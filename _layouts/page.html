@@ -4,7 +4,12 @@ title: Hyperspace by HTML5 UP
 ---
 
 <header id="header">
-  <a href="{{"index.html" | relative_url }}" class="title">{{ site.title }}</a>
+  <a href="{{"index.html" | relative_url }}" class="title">
+    {% if site.logo %}
+      <img src="/assets/images/RIMM_Logo_SM_NT.svg" />
+    {% endif %}
+    {{ site.title }}
+  </a>
 {% include sidebar.html url="/index.html" %}
 </header>
 
