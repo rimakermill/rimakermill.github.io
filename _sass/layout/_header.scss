@@ -14,10 +14,18 @@
 
 		> .title {
 			border: 0;
-			color: _palette(fg-bold);
+			color: _palette(accent3);
 			display: block;
-			font-size: 1.25em;
-			font-weight: _font(weight-bold);
+			font-size: 1.5em;
+			letter-spacing: 0.05rem;
+			font-weight: 300;
+			text-transform: uppercase;
+
+			img {
+				height: 1.75rem;
+				vertical-align: text-bottom;
+				margin-bottom: 0.125rem;
+			}
 		}
 
 		> nav {
@@ -42,7 +50,7 @@
 						border: 0;
 						color: _palette(fg-light);
 						display: inline-block;
-						font-size: 0.6em;
+						font-size: 0.75em;
 						font-weight: _font(weight-bold);
 						letter-spacing: _font(kerning-alt);
 						text-transform: uppercase;
