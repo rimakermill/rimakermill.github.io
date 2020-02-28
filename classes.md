@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Classes
+menu: true
 permalink: /classes/
 ---
 

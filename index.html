@@ -1,0 +1,39 @@
+---
+layout: default
+title: Hyperspace by HTML5 UP
+---
+<!-- Intro -->
+<section id="sidebar">
+  <div class="inner">
+{% include sidebar.html %}
+	</div>
+</section>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+<section id="welcome" class="wrapper style1 fullscreen fade-up">
+	<div class="inner">
+		<h1>{{ site.title }}</h1>
+		<p>{{ site.description }}</p>
+		<ul class="actions">
+			<li><a href="#section-1" class="button scrolly">Learn more</a></li>
+		</ul>
+	</div>
+</section>
+
+{% assign section_index = 1 %}
+{% for page in site.pages %}
+	{% if page.front == true %}
+<section id="section-{{ section_index }}" class="wrapper style2 fade-up">
+	<div class="inner">
+		<h2>{{ page.title }}</h2>
+		{{ page.content }}
+	</div>
+</section>
+		{% assign section_index = section_index | plus: 1 %}
+	{% endif %}
+{% endfor %}
+
+{% include footer.html %}
+</div>

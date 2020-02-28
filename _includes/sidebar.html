@@ -1,0 +1,15 @@
+<!-- Sidebar -->
+    <nav>
+      <ul>
+        <li><a href="{{ include.url | append: "#welcome" }}" class="scroll">Welcome</a></li>
+        {% assign sections = site.pages | where: "front", "true" %}
+        {% for section in sections %}
+        {% assign anchor = "#section-" | append: forloop.index %}
+        <li><a href="{{ include.url | append: anchor }}" class="scroll">{{ section.title }}</a></li>
+        {% endfor %}
+        {% assign pages = site.pages | where: "menu", "true" %}
+        {% for page in pages %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
