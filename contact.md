@@ -38,10 +38,6 @@ permalink: /contact/
 				<a href="#">{{ site.email }}</a>
 			</li>
 			<li>
-				<h3>Phone</h3>
-				<span>(000) 000-0000</span>
-			</li>
-			<li>
 				<h3>Social</h3>
 				{% include social.html type="icons" %}
 			</li>
