@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 front: true
+index: 1
 permalink: /contact/
 ---
 
