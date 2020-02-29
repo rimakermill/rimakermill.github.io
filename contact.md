@@ -6,7 +6,7 @@ permalink: /contact/
 ---
 
 <p>You can contact us through this form, email or our social media accounts. The best way to meet the members is to stop by our space on Wednesdays or Fridays after 7pm.</p>
-<div class="split style1">
+<!-- <div class="split style1">
 	<section>
 		<form method="post" action="#">
 			<div class="field half first">
@@ -25,7 +25,8 @@ permalink: /contact/
 				<li><a href="" class="button submit">Send Message</a></li>
 			</ul>
 		</form>
-	</section>
+	</section> -->
+<div class="style2">
 	<section>
 		<ul class="contact">
 			<li>
