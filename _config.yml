@@ -21,7 +21,7 @@
 title: Rhode Island Maker Mill
 email: info@rimakermill.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Rhode Island Maker Mill is a makerspace community promoting and supporting arts, engineering, and science for Rhode Island and southeast Massachusetts.
+  Rhode Island Maker Mill is a makerspace supporting the arts, engineering, and science for Rhode Island and southern Massachusetts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rimakermill.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "assets/images/RIMM_Logo_SM_NT.svg"
