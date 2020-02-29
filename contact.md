@@ -5,7 +5,7 @@ front: true
 permalink: /contact/
 ---
 
-<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+<p>You can contact us through this form, email or our social media accounts. The best way to meet the members is to stop by our space on Wednesdays or Fridays after 7pm.</p>
 <div class="split style1">
 	<section>
 		<form method="post" action="#">
