@@ -34,10 +34,10 @@ social:
  github: https://github.com/rimakermill
 
 address:
- - street: 80 Fountain St.
- - city: Pawtucket
- - state: RI
- - zip: 02860
+  street: Unit 114, 80 Fountain St.
+  city: Pawtucket
+  state: RI
+  zip: 02860
 
 # Build settings
 # theme: minima

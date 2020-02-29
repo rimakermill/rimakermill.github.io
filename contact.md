@@ -30,13 +30,12 @@ permalink: /contact/
 		<ul class="contact">
 			<li>
 				<h3>Address</h3>
-				<span>12345 Somewhere Road #654<br />
-				Nashville, TN 00000-0000<br />
-				USA</span>
+				<span>{{ site.address.street }}<br />
+				{{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}</span>
 			</li>
 			<li>
 				<h3>Email</h3>
-				<a href="#">user@untitled.tld</a>
+				<a href="#">{{ site.email }}</a>
 			</li>
 			<li>
 				<h3>Phone</h3>
