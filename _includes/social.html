@@ -1,0 +1,5 @@
+<ul class="social {{ include.type }}">
+	{% for link in site.social %}
+  <li><a href="{{ link[1] }}" class="fa-{{ link[0] }}"><span class="label">{{ link[0] }}</span></a></li>
+  {% endfor %}
+</ul>
