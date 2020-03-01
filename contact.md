@@ -6,7 +6,7 @@ index: 3
 permalink: /contact/
 ---
 
-<p>You can contact us through this form, email or our social media accounts. The best way to meet the members is to stop by our space on Wednesdays or Fridays after 7pm.</p>
+<p>You can contact us through email or our social media accounts. The best way to meet the members is to stop by our space on Wednesdays or Fridays from 7–10pm.</p>
 
 <div class="split style1">
 <!--	<section>

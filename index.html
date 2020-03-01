@@ -27,16 +27,17 @@ title: Hyperspace by HTML5 UP
 </section>
 
 {% assign section_index = 1 %}
-{% for page in site.pages %}
-	{% if page.front == true %}
+{% assign sections = site.pages | where: "front", "true" | sort: "index" %}
+{% for section in sections %}
+
 <section id="section-{{ section_index }}" class="wrapper style2 fullscreen fade-up">
 	<div class="inner">
-		<h2>{{ page.title }}</h2>
-		{{ page.content }}
+		<h2>{{ section.title }}</h2>
+		{{ section.content }}
 	</div>
 </section>
 		{% assign section_index = section_index | plus: 1 %}
-	{% endif %}
+
 {% endfor %}
 
 {% include footer.html %}

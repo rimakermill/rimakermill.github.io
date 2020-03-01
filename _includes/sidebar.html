@@ -2,7 +2,7 @@
     <nav>
       <ul>
         <li><a href="{{ include.url | append: "#welcome" }}" class="scroll">Welcome</a></li>
-        {% assign sections = site.pages | where: "front", "true" %}
+        {% assign sections = site.pages | where: "front", "true" | sort: "index" %}
         {% for section in sections %}
         {% assign anchor = "#section-" | append: forloop.index %}
         <li><a href="{{ include.url | append: anchor }}" class="scroll">{{ section.title }}</a></li>

@@ -2,8 +2,9 @@
 layout: page
 title: Join
 front: true
+index: 4
 permalink: /join/
 ---
 
-There are several ways you can become a member of the Ocean State Maker mill. 
+Come back soon to find out how you can join Rhode Island Maker Mill.
 
