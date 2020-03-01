@@ -2,13 +2,14 @@
 layout: page
 title: Contact
 front: true
-index: 1
+index: 3
 permalink: /contact/
 ---
 
 <p>You can contact us through this form, email or our social media accounts. The best way to meet the members is to stop by our space on Wednesdays or Fridays after 7pm.</p>
-<!-- <div class="split style1">
-	<section>
+
+<div class="split style1">
+<!--	<section>
 		<form method="post" action="#">
 			<div class="field half first">
 				<label for="name">Name</label>
@@ -27,8 +28,11 @@ permalink: /contact/
 			</ul>
 		</form>
 	</section> -->
-<div class="style2">
-	<section>
+
+  <section>
+		<img src="/assets/images/RIMM-map.svg" alt="Map of area near Rhode Island Maker Mill, just off I-95 exit 29" height="480px" />
+	</section>
+	<address>
 		<ul class="contact">
 			<li>
 				<h3>Address</h3>
@@ -44,5 +48,5 @@ permalink: /contact/
 				{% include social.html type="icons" %}
 			</li>
 		</ul>
-	</section>
+	</address>
 </div>
