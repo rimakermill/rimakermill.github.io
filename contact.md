@@ -5,7 +5,7 @@ front: true
 permalink: /contact/
 ---
 
-<p>Use the form below to contact us if you have a question about the space or membership. We'd love to hear from you.</p>
+<p>We'd love to hear from you if you have a question about the space or membership.</p>
 <div class="split style1">
 	<section>
 		<form method="post" action="#">
