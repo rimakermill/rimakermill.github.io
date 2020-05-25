@@ -5,7 +5,7 @@ front: true
 permalink: /contact/
 ---
 
-<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+<p>Use the form below to contact us if you have a question about the space or membership. We'd love to hear from you.</p>
 <div class="split style1">
 	<section>
 		<form method="post" action="#">
@@ -36,11 +36,11 @@ permalink: /contact/
 			</li>
 			<li>
 				<h3>Email</h3>
-				<a href="#">user@untitled.tld</a>
+				<a href="#">info@rimakermill.com</a>
 			</li>
 			<li>
 				<h3>Phone</h3>
-				<span>(000) 000-0000</span>
+				<span>(401) 484-0022</span>
 			</li>
 			<li>
 				<h3>Social</h3>
