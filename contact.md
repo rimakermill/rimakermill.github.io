@@ -30,8 +30,8 @@ permalink: /contact/
 		<ul class="contact">
 			<li>
 				<h3>Address</h3>
-				<span>12345 Somewhere Road #654<br />
-				Nashville, TN 00000-0000<br />
+				<span>80 Fountain Street, #114<br />
+				Pawtucket, RI 02860<br />
 				USA</span>
 			</li>
 			<li>
@@ -45,10 +45,10 @@ permalink: /contact/
 			<li>
 				<h3>Social</h3>
 				<ul class="icons">
-					<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://twitter.com/RIMakerMill" class="fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/OceanStateMakerMill" class="fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://github.com/rimakermill" class="fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.instagram.com/ri_mm/" class="fa-instagram"><span class="label">Instagram</span></a></li>
 					<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
 				</ul>
 			</li>
