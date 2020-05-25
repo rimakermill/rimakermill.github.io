@@ -36,7 +36,7 @@ permalink: /contact/
 			</li>
 			<li>
 				<h3>Email</h3>
-				<a href="#">info@rimakermill.com</a>
+				<a href="mailto:info@rimakermill.com">info@rimakermill.com</a>
 			</li>
 			<li>
 				<h3>Phone</h3>
