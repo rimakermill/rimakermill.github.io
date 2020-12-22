@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Events
-menu: true
+front: true
+index: 1
 permalink: /events/
 ---
 

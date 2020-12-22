@@ -15,7 +15,11 @@ title: Hyperspace by HTML5 UP
 <section id="welcome" class="wrapper style1 fullscreen fade-up">
 	<div class="inner">
 		<h1>{{ site.title }}</h1>
-		<p>{{ site.description }}</p>
+
+		<p>Rhode Island Maker Mill is a makerspace supporting the arts, engineering, and science in the Rhode Island and southern Massachusetts area. Our members are interested in all kinds of making including 3D printing, digital fabrication, electronics, fiber arts and more. We hold events, workshops and meet ups to learn, make and share. </p>
+		<p>Our space is open Wednesday or Friday evenings from 7 – 10pm. Stop by to meet the members and learn more.</p>
+		<p>If you ready to go, you can review our membership tiers and join us!</p>
+
 		<ul class="actions">
 			<li><a href="#section-1" class="button scrolly">Learn more</a></li>
 		</ul>
@@ -23,16 +27,17 @@ title: Hyperspace by HTML5 UP
 </section>
 
 {% assign section_index = 1 %}
-{% for page in site.pages %}
-	{% if page.front == true %}
-<section id="section-{{ section_index }}" class="wrapper style2 fade-up">
+{% assign sections = site.pages | where: "front", "true" | sort: "index" %}
+{% for section in sections %}
+
+<section id="section-{{ section_index }}" class="wrapper style2 fullscreen fade-up">
 	<div class="inner">
-		<h2>{{ page.title }}</h2>
-		{{ page.content }}
+		<h2>{{ section.title }}</h2>
+		{{ section.content }}
 	</div>
 </section>
 		{% assign section_index = section_index | plus: 1 %}
-	{% endif %}
+
 {% endfor %}
 
 {% include footer.html %}
